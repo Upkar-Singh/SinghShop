@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SinghShop</string>
+    <string name="instructions_text">You\'re able to buy choose from three products
+                                    and add or remove products using the +/- buttons in the next screen,
+                                    and once you\'re finished click the checkout button.
+                                </string>
+    <string name="menu_button">Proceed to menu</string>
+    <string name="welcome_text">Welcome</string>
 </resources>
