@@ -7,10 +7,10 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/title_textView"
+        android:id="@+id/coconut_textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/rx7_title"
+        android:text="@string/coconut_title"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="36sp"
@@ -18,13 +18,22 @@
         tools:layout_editor_absoluteY="6dp" />
 
     <ImageView
-        android:id="@+id/rx7_imageView"
+        android:id="@+id/coconut_imageView"
         android:layout_width="match_parent"
         android:layout_height="233dp"
-        android:contentDescription="@string/product_description"
-        app:srcCompat="@drawable/rx7"
+        android:contentDescription="@string/product2_description"
+        app:srcCompat="@drawable/Coconut"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/description_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/product2_description"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:padding="7dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,9 +54,9 @@
             android:id="@+id/price_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:text="@string/price"
-            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="@string/price2"
+
             android:textColor="@android:color/black"
             android:textSize="20sp" />
 
@@ -64,7 +73,7 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/quantity_textView"
+            android:id="@+id/quantity2_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="5"
@@ -110,7 +119,7 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/subtotal_price_textView"
+            android:id="@+id/subtotal2_price_textView"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
