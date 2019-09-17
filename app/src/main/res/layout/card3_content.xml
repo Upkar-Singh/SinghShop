@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F56757"
     android:orientation="vertical">
 
     <TextView
@@ -21,10 +22,19 @@
         android:id="@+id/apple_imageView"
         android:layout_width="match_parent"
         android:layout_height="233dp"
-        android:contentDescription="@string/product_description"
-        app:srcCompat="@drawable/Apple"
+        android:contentDescription="@string/product3_description"
+        app:srcCompat="@drawable/apple"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/description3_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:text="@string/product3_description"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/price3"
-            android:textAlignment="center"
+
             android:textColor="@android:color/black"
             android:textSize="20sp" />
 
@@ -86,6 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
             android:background="@android:color/holo_blue_dark"
+            android:onClick="addItem"
             android:padding="5dp"
             android:text="@string/plus_item"
             android:textSize="36sp" />
@@ -95,6 +106,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_blue_dark"
+            android:onClick="removeItem"
             android:padding="5dp"
             android:text="@string/minus_item"
             android:textSize="36sp" />

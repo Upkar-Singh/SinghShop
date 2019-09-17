@@ -19,6 +19,7 @@
     <string name="subtotal_price">0</string>
     <string name="coconut_title">Coconut</string>
     <string name="product2_description">Yes, this is technically a fruit</string>
+    <string name="product3_description">An apple a day keeps the doctor away</string>
     <string name="price3">0.40</string>
     <string name="apple_title">Apple</string>
 </resources>
