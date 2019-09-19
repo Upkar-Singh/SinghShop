@@ -14,9 +14,11 @@
     <string name="price_label">Price: $</string>
     <string name="price1">7.00</string>
     <string name="price2">4.00</string>
-    <string name="initial_quantity">0</string>
-    <string name="subtotal_label">Subtotal: $</string>
-    <string name="subtotal_price">0</string>
+    <string name="initial_quantity1">0</string>
+    <string name="initial_quantity2">0</string>
+    <string name="initial_quantity3">0</string>
+    <string name="subtotal_label">Subtotal: </string>
+    <string name="subtotal_price">$0</string>
     <string name="coconut_title">Coconut</string>
     <string name="product2_description">Yes, this is technically a fruit</string>
     <string name="product3_description">An apple a day keeps the doctor away</string>
