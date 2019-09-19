@@ -9,8 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CheckoutActivity"></activity>
-        <activity android:name=".MenuActivity" />
+
+        <activity android:name=".CheckoutActivity"
+            android:label = "Checkout Activity"
+            android:parentActivityName=".MenuActivity"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "com.example.android.singhshop.MainActivity" />
+        </activity>
+        <activity android:name=".MenuActivity"
+            android:label = "Menu Activity"
+            android:parentActivityName=".MainActivity"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "com.example.android.singhshop.MainActivity" />
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

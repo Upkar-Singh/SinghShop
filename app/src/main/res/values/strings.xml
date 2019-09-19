@@ -6,7 +6,9 @@
                                 </string>
     <string name="menu_button">Proceed to menu</string>
     <string name="welcome_text">Welcome</string>
-    <string name="plus_item">+</string>
+    <string name="plus_item1">+</string>
+    <string name="plus_item2">+</string>
+    <string name="plus_item3">+</string>
     <string name="minus_item">-</string>
     <string name="watermelon_title">Watermelon</string>
     <string name="quantity">Quantity:</string>
@@ -18,10 +20,13 @@
     <string name="initial_quantity2">0</string>
     <string name="initial_quantity3">0</string>
     <string name="subtotal_label">Subtotal: </string>
-    <string name="subtotal_price">$0</string>
+    <string name="subtotal_price1">$0</string>
+    <string name="subtotal_price2">$0</string>
+    <string name="subtotal_price3">$0</string>
     <string name="coconut_title">Coconut</string>
     <string name="product2_description">Yes, this is technically a fruit</string>
     <string name="product3_description">An apple a day keeps the doctor away</string>
     <string name="price3">0.40</string>
     <string name="apple_title">Apple</string>
+    <string name="checkout_text">Proceed to checkout</string>
 </resources>
