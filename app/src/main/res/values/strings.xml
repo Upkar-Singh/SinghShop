@@ -29,4 +29,9 @@
     <string name="price3">0.40</string>
     <string name="apple_title">Apple</string>
     <string name="checkout_text">Proceed to checkout</string>
+    <string name="tvq_amount">TVQ amount: </string>
+    <string name="tps_amount">TPS amount: </string>
+    <string name="total_amount">Total before tax: </string>
+    <string name="final_total_amount">Final total: </string>
+    <string name="message">Thank you for using the shopping application</string>
 </resources>

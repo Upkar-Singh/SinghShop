@@ -17,7 +17,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=
-                    "com.example.android.singhshop.MainActivity" />
+                    ".MainActivity" />
         </activity>
         <activity android:name=".MenuActivity"
             android:label = "Menu Activity"
@@ -26,7 +26,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=
-                    "com.example.android.singhshop.MainActivity" />
+                    "MainActivity" />
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

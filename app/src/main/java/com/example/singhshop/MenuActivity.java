@@ -59,10 +59,11 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void launchCheckoutActivity(View view) {
-
-        Intent intent = new Intent(this, CheckoutActivity.class);
-        intent.putExtra(EXTRA_MESSAGE, total);
-        startActivity(intent);
+        if (total > 0) {
+            Intent intent = new Intent(this, CheckoutActivity.class);
+            intent.putExtra(EXTRA_MESSAGE, String.format("%.2f", total));
+            startActivity(intent);
+        }
     }
 }
 
