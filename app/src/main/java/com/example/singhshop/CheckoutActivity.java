@@ -1,3 +1,6 @@
+// Student name: Upkar Singh
+// Student ID: 1295545
+
 package com.example.singhshop;
 
 import android.content.Intent;
@@ -18,16 +21,25 @@ public class CheckoutActivity extends AppCompatActivity {
         displayTotals();
     }
 
-    public void displayTotals(){
+    /**
+     * Method that sets the taxes, total, and final total for each TextView
+     */
+    public void displayTotals() {
         Intent intent = getIntent();
         double total = Double.parseDouble(intent.getStringExtra(MenuActivity.EXTRA_MESSAGE));
+
+        // References each view then sets the text to the calculations perfomed
         textView = findViewById(R.id.total_textView);
         textView.setText(textView.getText() + " " + String.format("%.2f", total));
+
         textView = findViewById(R.id.tvq_textView);
-        textView.setText(textView.getText() + " " +String.format("%.2f",total + TVQ * total));
+        textView.setText(textView.getText() + " " + String.format("%.2f", TVQ * total));
+
         textView = findViewById(R.id.tps_textView);
-        textView.setText(textView.getText() + " " +String.format("%.2f",total + TPS * total));
+        textView.setText(textView.getText() + " " + String.format("%.2f", TPS * total));
+
         textView = findViewById(R.id.end_total_textView);
-        textView.setText(textView.getText() + " " +String.format("%.2f", total + TVQ  * total + TPS * total));
+        textView.setText(textView.getText() + " " + String.format("%.2f", total + TVQ * total + TPS * total));
+        Log.d("Call displayTotals", "displayingTotal");
     }
 }

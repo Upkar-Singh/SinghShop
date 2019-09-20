@@ -34,4 +34,5 @@
     <string name="total_amount">Total before tax: </string>
     <string name="final_total_amount">Final total: </string>
     <string name="message">Thank you for using\n the shopping application</string>
+    <string name="total">Total: $0</string>
 </resources>
