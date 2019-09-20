@@ -58,6 +58,10 @@ public class MenuActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * 
+     * @param view
+     */
     public void launchCheckoutActivity(View view) {
         if (total > 0) {
             Intent intent = new Intent(this, CheckoutActivity.class);

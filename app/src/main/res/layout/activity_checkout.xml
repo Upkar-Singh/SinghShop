@@ -9,11 +9,13 @@
     <TextView
         android:id="@+id/total_textView"
         android:layout_width="match_parent"
-        android:layout_height="19dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/total_amount"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/message_textView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,8 +26,11 @@
         android:layout_height="wrap_content"
         android:text="@string/tvq_amount"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
         app:layout_constraintTop_toBottomOf="@+id/total_textView"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="282dp" />
 
     <TextView
         android:id="@+id/tps_textView"
@@ -33,6 +38,8 @@
         android:layout_height="wrap_content"
         android:text="@string/tps_amount"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
         app:layout_constraintTop_toBottomOf="@+id/tvq_textView"
         tools:layout_editor_absoluteX="-16dp" />
 
@@ -42,6 +49,8 @@
         android:layout_height="wrap_content"
         android:text="@string/final_total_amount"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
         app:layout_constraintTop_toBottomOf="@+id/tps_textView"
         tools:layout_editor_absoluteX="16dp" />
 
@@ -52,6 +61,8 @@
         android:layout_marginBottom="176dp"
         android:text="@string/message"
         android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="-16dp" />
 </android.support.constraint.ConstraintLayout>
