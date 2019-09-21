@@ -14,8 +14,9 @@ checking out. In the final checkout the inital total, taxes and final total is
 displayed including a thank you message.
 
 ## Images
-[Watermelon](http://www.aspirandi.it/index.php/en/top-gun-en/)
-[Coconut](https://www.gettyimages.ca/photos/coconut?sort=mostpopular&mediatype=photography&phrase=coconut)
+
+[Watermelon](http://www.aspirandi.it/index.php/en/top-gun-en/)\n
+[Coconut](https://www.gettyimages.ca/photos/coconut?sort=mostpopular&mediatype=photography&phrase=coconut)\n
 [Apple](https://www.telemedaustria.at/cook-apples-groesster-beitrag-zur-menschheit-wird-im-gesundheitsbereich-liegen-1)
 
 ## License
